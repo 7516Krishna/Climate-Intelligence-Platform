@@ -1,0 +1,36 @@
+# Data Paths
+data:
+  raw_data_path: "data/raw/climate_data.csv"
+  processed_data_path: "data/processed/processed_data.csv"
+
+# Columns
+columns:
+  date: "date"
+  temperature: "temperature"
+  rainfall: "rainfall"
+
+# Preprocessing
+preprocessing:
+  fill_method: "ffill"
+
+# Feature Engineering
+features:
+  rolling_window: 30
+
+# Anomaly Detection
+anomaly:
+  contamination: 0.01
+
+# Forecasting
+forecast:
+  steps: 30
+  arima_order: [5, 1, 0]
+
+# Output Paths
+outputs:
+  plots_path: "outputs/plots/"
+  reports_path: "outputs/reports/"
+
+# Logging
+logging:
+  log_file: "logs/app.log"

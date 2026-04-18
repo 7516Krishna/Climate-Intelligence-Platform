@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Outputs
+outputs/
+
+# Data (optional – avoid large files)
+data/raw/
+data/processed/
+
+# Streamlit config (optional)
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
